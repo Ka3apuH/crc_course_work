@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)
+# Install script for directory: /home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)/cmake-build-debug/crc_main/cmake_install.cmake")
+  include("/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/crc_main/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

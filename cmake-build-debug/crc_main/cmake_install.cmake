@@ -1,4 +1,4 @@
-# Install script for directory: /home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)/crc_main
+# Install script for directory: /home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/crc_main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
