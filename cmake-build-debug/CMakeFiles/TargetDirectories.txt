@@ -1,0 +1,4 @@
+/home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)/cmake-build-debug/crc_main/CMakeFiles/edit_cache.dir
+/home/kirill_kazarin/Рабочий стол/java.labs/crc_сети(курсач)/cmake-build-debug/crc_main/CMakeFiles/rebuild_cache.dir
