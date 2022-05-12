@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(lab1_priority_queue_TEST)
+project(crc_TEST)
 
 set(MAIN_TEST)
 

@@ -10,6 +10,8 @@
 #include <functional>
 #include <initializer_list>
 #include <iostream>
+#include <bitset>
+#include <bit>
 
 static const  uint8_t reverse_table[16]{
 0x0, 0x8, 0x4, 0xC, 0x2, 0xA, 0x6, 0xE,
@@ -118,6 +120,39 @@ class CRC_main {
         return (crc_ ^ doXor);
     }
 
+    template<int N>
+    static inline std::bitset<N> crc_base_2(std::istream &input_inf,
+                                            std::bitset<N> &poly_,
+                                            std::bitset<N> &init,
+                                            std::bitset<N> &doXor,
+                                            bool refIn,bool refOut,
+                                 std::function<std::bitset<N>(std::bitset<N>)> revers_bits){
+        std::bitset<N> crc_=init;
+
+        while (input_inf.eof()){
+
+            if(refIn){
+                crc_=crc_^(revers_bits(std::bitset<N>(input_inf.get()))<<8);
+            } else
+            {
+                crc_=crc_^(std::bitset<N>(input_inf.get())<<8);
+            }
+
+            for (int i = 0; i < 8; ++i) {
+                if(crc_[0].operator~()){
+                    crc_=(crc_.operator<<(1))^poly_;
+                } else{
+                    crc_=crc_.operator<<(1);
+                }
+            }
+        }
+
+        if(refOut){
+            crc_= revers_bits(crc_);
+        }
+
+        return (crc_ ^ doXor);
+    }
 
     static inline uint8_t crc_8_bit(std::istream &input_inf, uint8_t poly_,uint8_t init,
                                       uint8_t doXor,bool refIn,bool refOut){
@@ -151,6 +186,19 @@ public:
         }
 };
 
+    template<int N>
+    class reverse_bits: std::unary_function<std::bitset<N>,std::bitset<N>>{
+    public:
+        reverse_bits()=default;
+        ~reverse_bits()=default;
+
+        std::bitset<N> operator()(std::bitset<N> &k){
+           auto res=std::bitset<N>(0);
+            for (int i = 0; i < N; ++i) {
+                res.set(i,k[N-1-i].operator~());
+            }
+        }
+    };
 
 /*    template<typename int_t>
     class reverse_bits: std::unary_function<int_t,int_t>{
