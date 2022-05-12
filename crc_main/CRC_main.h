@@ -103,7 +103,7 @@ class CRC_main {
             }
 
             for (int i = 0; i < 8; ++i) {
-                if(crc_ & 0x8<<(sizeof(int_t)-4)){
+                if(crc_ & static_cast<int_t>(0x8)<<(sizeof(int_t)-4)){
                     crc_=(crc_<<1)^poly_;
                 } else{
                     crc_=crc_<<1;
