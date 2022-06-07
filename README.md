@@ -1,1 +1,1 @@
-# crc_course_work
+# реализация CRC кодов

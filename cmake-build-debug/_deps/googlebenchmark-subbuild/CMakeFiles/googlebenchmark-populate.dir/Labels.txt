@@ -1,0 +1,14 @@
+# Target labels
+ googlebenchmark-populate
+# Source files and their labels
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/CMakeFiles/googlebenchmark-populate-complete.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-build.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-configure.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-download.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-install.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-mkdir.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-patch.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-test.rule
+/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googlebenchmark-subbuild/googlebenchmark-populate-prefix/src/googlebenchmark-populate-stamp/googlebenchmark-populate-update.rule

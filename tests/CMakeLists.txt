@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(crc_TEST)
 
-set(MAIN_TEST)
+set(MAIN_TEST crc_test.h tests.cpp)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -26,7 +26,7 @@ set_target_properties(
 
 target_include_directories(
         ${PROJECT_NAME}
-        PRIVATE
+        PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/../crc_main
 )
 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/crc.dir/main.cpp.o -o crc 
