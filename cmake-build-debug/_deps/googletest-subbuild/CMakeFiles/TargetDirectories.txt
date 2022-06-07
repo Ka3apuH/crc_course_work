@@ -1,3 +1,0 @@
-/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

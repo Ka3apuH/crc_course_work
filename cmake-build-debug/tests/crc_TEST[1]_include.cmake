@@ -1,5 +1,0 @@
-if(EXISTS "/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/tests/crc_TEST[1]_tests.cmake")
-  include("/home/kirill_kazarin/Рабочий стол/cpp.labs/crc_course_work/cmake-build-debug/tests/crc_TEST[1]_tests.cmake")
-else()
-  add_test(crc_TEST_NOT_BUILT crc_TEST_NOT_BUILT)
-endif()
